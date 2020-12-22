@@ -1,6 +1,6 @@
 <?php
 
-namespace app\core\form;
+namespace jacuve\phpmvc\form;
 
 class TextAreaField extends BaseField
 {

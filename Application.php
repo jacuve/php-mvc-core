@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core;
+namespace jacuve\phpmvc;
 
-use app\core\Request;
-use app\core\db\Database;
-use app\core\db\DBModel;
+use jacuve\phpmvc\Request;
+use jacuve\phpmvc\db\Database;
+use jacuve\phpmvc\db\DBModel;
 
 class Application
 {

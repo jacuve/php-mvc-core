@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\form;
+namespace jacuve\phpmvc\form;
 
-use app\core\Model;
+use jacuve\phpmvc\Model;
 
 abstract class BaseField
 {

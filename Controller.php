@@ -1,13 +1,13 @@
 <?php
 
-namespace app\core;
+namespace jacuve\phpmvc;
 
-use app\core\middlewares\BaseMiddleware;
+use jacuve\phpmvc\middlewares\BaseMiddleware;
 
 class Controller
 {
     /**
-     * @var \app\core\middlewares\BaseMiddleware  []
+     * @var \jacuve\phpmvc\middlewares\BaseMiddleware  []
      */
     protected array $middlewares = [];
 

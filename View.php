@@ -1,6 +1,6 @@
 <?php 
 
-namespace app\core;
+namespace jacuve\phpmvc;
 
 class View
 {
@@ -19,7 +19,7 @@ class View
             return $this->renderView($callback);
         }
         if (is_array($callback)){
-            /** @var \app\core\Controller $controller */
+            /** @var \jacuve\phpmvc\Controller $controller */
             $controller = new $callback[0]();
             Application::$app->controller = $controller ;
             $controller->action = $callback[1];

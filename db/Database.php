@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
+namespace jacuve\phpmvc\db;
 
-use app\core\Application;
+use jacuve\phpmvc\Application;
 
 class Database
 {

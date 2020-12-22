@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core\db;
-use app\core\Model;
-use app\core\Application;
+namespace jacuve\phpmvc\db;
+use jacuve\phpmvc\Model;
+use jacuve\phpmvc\Application;
 
 abstract class DBModel extends Model
 {

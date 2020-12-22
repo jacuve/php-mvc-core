@@ -1,8 +1,8 @@
 <?php
 
-namespace app\core;
+namespace jacuve\phpmvc;
 
-use app\core\db\DBModel;
+use jacuve\phpmvc\db\DBModel;
 
 
 abstract class UserModel extends DBModel

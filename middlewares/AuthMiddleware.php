@@ -1,10 +1,10 @@
 <?php
 
-namespace app\core\middlewares;
+namespace jacuve\phpmvc\middlewares;
 
-use app\core\Application;
-use app\core\middlewares\BaseMiddleware;
-use app\core\exception\ForbiddenException;
+use jacuve\phpmvc\Application;
+use jacuve\phpmvc\middlewares\BaseMiddleware;
+use jacuve\phpmvc\exception\ForbiddenException;
 
 class AuthMiddleware extends BaseMiddleware
 {
