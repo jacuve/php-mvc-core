@@ -1,0 +1,11 @@
+{
+    "name": "jacuve/php-mvc-core",
+    "description": "Core de framework basico mvc",
+    "authors": [
+        {
+            "name": "Jose Cuenca",
+            "email": "jacuve@gmail.com"
+        }
+    ],
+    "require": {}
+}
